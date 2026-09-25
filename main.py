@@ -5,6 +5,7 @@ print("==============================")
 name = input("What is your name? ")
 print("Hello", name, "!")
 
+# Main menu of the Student Assistant
 choice = input(
     "What do you want to do?\n"
     "1 - Check a grade\n"
