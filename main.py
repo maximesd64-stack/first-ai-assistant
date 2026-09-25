@@ -3,7 +3,11 @@ print(" MY STUDENT ASSISTANT")
 print("==============================")
 
 name = input("What is your name? ")
+age = input("How old are you? ")
+degree = input("What are you studying? ")
+
 print("Hello", name, "!")
+print("You are", age, "years old and you are studying", degree + ".")
 
 # Main menu of the Student Assistant
 choice = input(
@@ -21,8 +25,8 @@ if choice == "1":
 
     if grade >= 16:
         print("Excellent work")
-        
-    elif grade >= 13
+
+    elif grade >= 13:
         print("Very good")
 
     elif grade >= 10:
