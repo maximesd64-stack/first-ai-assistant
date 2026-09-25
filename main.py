@@ -20,13 +20,16 @@ if choice == "1":
     grade = float(input("Enter your grade: "))
 
     if grade >= 16:
-        print("Excellent work!")
+        print("Excellent work")
+        
+    elif grade >= 13
+        print("Very good")
 
     elif grade >= 10:
-        print("You passed!")
+        print("You passed")
 
     else:
-        print("Keep practising!")
+        print("Keep practising")
 
 
 elif choice == "2":
