@@ -9,6 +9,7 @@ degree = input("What are you studying? ")
 print("Hello", name, "!")
 print("You are", age, "years old and you are studying", degree + ".")
 
+
 # Main menu of the Student Assistant
 choice = input(
     "What do you want to do?\n"
@@ -19,21 +20,22 @@ choice = input(
     "Your choice: "
 )
 
+
 if choice == "1":
 
     grade = float(input("Enter your grade: "))
 
     if grade >= 16:
-        print("Excellent work")
+        print("Excellent work!")
 
     elif grade >= 13:
-        print("Very good")
+        print("Very good!")
 
     elif grade >= 10:
-        print("You passed")
+        print("You passed!")
 
     else:
-        print("Keep practising")
+        print("Keep practising!")
 
 
 elif choice == "2":
@@ -59,12 +61,13 @@ elif choice == "4":
         "Beginner, Intermediate or Advanced? "
     ).lower()
 
+
     if level == "beginner":
 
         print("LESSON: Variables")
         print("A variable stores a value.")
         print("Example:")
-        print("age = 20")
+        print("score = 15")
 
         print("Exercise:")
         print("Create a variable called age and give it the value 20.")
@@ -85,8 +88,8 @@ elif choice == "4":
         print("LESSON: Conditions")
         print("Conditions allow your program to make decisions.")
         print("Example:")
-        print("if age >= 18:")
-        print("    print('Adult')")
+        print("if score >= 10:")
+        print("    print('Passed')")
 
         print("Exercise:")
         print("Write a condition that checks if age is greater than or equal to 18.")
@@ -132,6 +135,3 @@ elif choice == "4":
 else:
 
     print("I do not understand that choice yet.")
-
-
-    
