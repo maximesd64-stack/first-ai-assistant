@@ -3,12 +3,14 @@ degree = input("What is your degree? ")
 print("Welcome", name, "! You are studying", degree)
 
   grades = float(input("what is ur grades?"))
-      if grades >= 15:
+      if grades >= 16:
           print("Perfect")
+      elif grades >= 13
+          print("Very good")
       elif grades >=10:
-          print("u pass good job")
+          print("U pass good job")
       else:
-          print("practice more")
+          print("Practice more")
   grade1 = float(input("what is ur first grade ?"))
   grade2 = float(input("what is ur first grade ?"))
   moy_grade = (grade1 + grade2) / 2
